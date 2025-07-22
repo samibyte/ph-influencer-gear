@@ -14,10 +14,13 @@
 
 /* shared styles */
 body {
-  max-width: 1440px;
-  margin: 0 auto;
   font-family: "Poppins";
   font-style: normal;
+}
+
+.header, main {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .btn-primary {
@@ -212,6 +215,42 @@ body {
   border-radius: 0;
 }
 
+/* footer styles */
+.footer {
+  background-color: rgba(10, 8, 38, 1);
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  padding-top: 50px;
+}
+
+.copyright-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(217, 219, 225, 1);
+  margin-bottom: 5px;
+}
+
+.social-menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0 40px;
+}
+
+.social-item {
+  list-style: none;
+}
+.social-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
 
 /* resonsive styles */
 @media screen and (max-width: 576px) {
